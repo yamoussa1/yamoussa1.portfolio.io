@@ -7,7 +7,7 @@ body{
 
 #info{
     position:absolute;
-    left: 200px;
+    left: 300px;
 }
 #home{
     position:absolute;
@@ -32,4 +32,27 @@ body{
 #contacts{
     position:absolute;
     left: 850px;
+}
+
+#profileImage{
+    background-size: 50px;
+}
+
+#divinfo{
+    position:absolute;
+    left: 200px;
+}
+#divaboutme{
+    position:absolute;
+    left: 900px;
+}
+#aboutmeinfo{
+    position:absolute;
+    left: 700px;
+    bottom: -2920px;
+}
+#line{
+    text-decoration-line: underline;
+    text-decoration-color: Blue;
+    text-decoration-thickness: 10px;
 }
