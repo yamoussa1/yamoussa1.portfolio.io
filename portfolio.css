@@ -1,18 +1,35 @@
-/*body{background-color: blue;}*/
+body{
+    background-image: url('pic1.jpg');
+    background-size: 700px;
+    width: 900px;
+    height: 900px;
+}
 
+#info{
+    position:absolute;
+    left: 200px;
+}
 #home{
     position:absolute;
-    left: 500px;
+    left: 300px;
 }
 #about{
     position:absolute;
-    left: 600px;
+    left: 400px;
 }
 #resume{
     position:absolute;
-    left: 700px;
+    left: 500px;
 }
 #portfolio{
     position:absolute;
-    left: 800px;
+    left: 600px;
+}
+#projects{
+    position:absolute;
+    left: 730px;
+}
+#contacts{
+    position:absolute;
+    left: 850px;
 }
