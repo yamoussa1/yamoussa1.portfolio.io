@@ -1,0 +1,16 @@
+#home{
+    position:static;
+    left: 500px;
+}
+#about{
+    position:static;
+    left: 550px;
+}
+#resume{
+    position:static;
+    left: 600px;
+}
+#portfolio{
+    position:static;
+    left: 650px;
+}
