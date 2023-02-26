@@ -56,3 +56,14 @@ body{
     text-decoration-color: Blue;
     text-decoration-thickness: 10px;
 }
+
+#skill{
+    position:absolute;
+    left: 50px;
+    bottom: -3100px;
+}
+#skillunderline{
+    text-decoration-line: underline;
+    text-decoration-color: Blue;
+    text-decoration-thickness: 10px;
+}
