@@ -1,18 +1,18 @@
 body{background-color: blue;}
 
 #home{
-    position:static;
+    position:absolute;
     left: 500px;
 }
 #about{
-    position:static;
+    position:absolute;
     left: 550px;
 }
 #resume{
-    position:static;
+    position:absolute;
     left: 600px;
 }
 #portfolio{
-    position:static;
+    position:absolute;
     left: 650px;
 }
