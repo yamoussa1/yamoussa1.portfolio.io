@@ -1,69 +1,93 @@
-body{
+/*#background{
     background-image: url('pic1.jpg');
-    background-size: 700px;
-    width: 900px;
-    height: 900px;
+    width: 100px;
+    height:100px;
+}*/
+
+#menu{
+    position: fixed;
 }
 
-#info{
-    position:absolute;
-    left: 300px;
-}
-#home{
-    position:absolute;
-    left: 300px;
-}
-#about{
-    position:absolute;
-    left: 400px;
-}
-#resume{
-    position:absolute;
-    left: 500px;
-}
-#portfolio{
-    position:absolute;
-    left: 600px;
-}
-#projects{
-    position:absolute;
-    left: 730px;
-}
-#contacts{
-    position:absolute;
-    left: 850px;
+#info {
+  position: absolute;
+  left: 300px;
 }
 
-#profileImage{
-    background-size: 50px;
+#home {
+  position: absolute;
+  left: 300px;
+}
+#about {
+  position: absolute;
+  left: 400px;
+}
+#resume {
+  position: absolute;
+  left: 500px;
+}
+#portfolio {
+  position: absolute;
+  left: 600px;
+}
+#projects {
+  position: absolute;
+  left: 730px;
+}
+#contacts {
+  position: absolute;
+  left: 850px;
 }
 
-#divinfo{
-    position:absolute;
-    left: 200px;
+#sec1 {
+    height: 1500px;
+    width: 1500px;
+    background-image: url("pic1.jpg");
+  }
+  
+#divsec2{
+    position: relative;
+    bottom: 0px;
 }
-#divaboutme{
-    position:absolute;
-    left: 900px;
+#sec2 {
+    /*background-image: url("FOF.png");*/
+    position: relative;
+    bottom: 0px;
+  }
+  
+#divinfo {
+  position: relative;
+  left: 0px;
 }
-#aboutmeinfo{
-    position:absolute;
-    left: 700px;
-    bottom: -2920px;
+#divaboutme {
+  position: relative;
+  left: 0px;
 }
-#line{
-    text-decoration-line: underline;
-    text-decoration-color: Blue;
-    text-decoration-thickness: 10px;
+#aboutmeinfo {
+  position: relative;
+  left: 0px;
+  bottom: 0px;
 }
 
-#skill{
-    position:absolute;
-    left: 50px;
-    bottom: -3100px;
+#skill {
+  position: relative;
+  left: 0px;
+  bottom: 0px;
 }
-#skillunderline{
-    text-decoration-line: underline;
-    text-decoration-color: Blue;
-    text-decoration-thickness: 10px;
+
+/*#pic1{ background-image: url("pic1.jpg");
+    width: 20px;
+    height: 20px;
+    border: solid 2px red;}*/
+#line {
+  text-decoration-line: underline;
+  text-decoration-color: Blue;
+  text-decoration-thickness: 10px;
+}
+#skillunderline {
+  text-decoration-line: underline;
+  text-decoration-color: Blue;
+  text-decoration-thickness: 10px;
+}
+#profileImage {
+  background-size: 50px;
 }
